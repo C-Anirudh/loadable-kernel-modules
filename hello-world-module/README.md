@@ -1,9 +1,7 @@
 # hello.c
 
-This is a simple Kernel Loadable module that prints messages to the kernel log.
-It prints -
-    `I am loaded` when it is loaded into the kernel
-    `Bye, I am unloaded` when it is unloaded from the kernel
+This is a simple Loadable Kernel module that prints messages to the kernel log.
+It prints `I am loaded` when it is loaded into the kernel and `Bye, I am unloaded` when it is unloaded from the kernel.
 
 ## Installation
 
@@ -13,7 +11,7 @@ $ sudo apt-get install build-essential linux-headers-`uname -r`
 ```
 
 
-## Using LKM
+## Using the LKM
 
 Run the make command to compile the source code.
 ```bash
@@ -25,7 +23,7 @@ Use insmod to load the module.
 $ sudo insmod hello.ko
 ```
 
-The printk function doesn’t output to the console but rather the kernel log. To see that, we’ll need to run:
+The printk function doesn’t output to the console but rather to the kernel log. To see that, we’ll need to run:
 ```bash
 $ sudo dmesg
 ```
@@ -35,7 +33,7 @@ To remove the module, run:
 $ sudo rmmod hello
 ```
 
-Now run check kernel log again for the message when the module is unloaded.
+Now check kernel log again for the message when the module is unloaded.
 
 
 This is the manual way to check the module. Execute the following command to run the automated test.
