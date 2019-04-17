@@ -27,6 +27,10 @@ The printk function doesn’t output to the console but rather to the kernel log
 ```bash
 $ sudo dmesg
 ```
+or
+```bash
+$ tail /var/log/kern.log
+```
 
 To remove the module, run:
 ```bash
@@ -37,7 +41,6 @@ Now check kernel log again for the message when the module is unloaded.
 
 
 This is the manual way to check the module. Execute the following command to run the automated test.
-To remove the module, run:
 ```bash
 $ make test
 ```
