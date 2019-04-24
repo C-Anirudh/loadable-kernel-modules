@@ -3,7 +3,7 @@
 #include <linux/init.h>
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Ch. chandu");
+MODULE_AUTHOR("U4CSE17116,118,119,148,169");
 MODULE_DESCRIPTION("A kernel module that displays message when loaded and un-loaded");
 MODULE_VERSION("0.1");
 
