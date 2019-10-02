@@ -14,4 +14,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+This Project is Licensed Under [MIT](https://choosealicense.com/licenses/mit/)
